@@ -1,4 +1,4 @@
-<h2>Android Development</h2><br><br>
+<h2 style="color:blue;">Android Development</h2><br><br>
 <i>Listed Projects built on Android Studio with Java show good usage of layouts, activity, intents, intent-filters and so on.<i/><br><hr>
 
 <b><i>EGmail<i/></b> app demonstrates the use of webpage intent. It allows users to type To(Receiver), BCC, CC, Subject and Body text of a mail within the app 
