@@ -1,5 +1,5 @@
 <h2>Android Development</h2><br><br>
-<i>Listed Projects built on Android Studio with Java provides a good understanding of layouts, activity, intents, intent-filters and so on.<i/><br><br>
+<i>Listed Projects built on Android Studio with Java provides a good understanding of layouts, activity, intents, intent-filters and so on.<i/><br><hr>
 
 <b><i>EGmail<i/></b> app demonstrates the use of webpage intent. It allows users to type To(Receiver), BCC, CC, Subject and Body text of a mail within the app 
 and displays choices for all possible available mailing services on the device.<br><br>
