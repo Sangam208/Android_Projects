@@ -1,5 +1,5 @@
-<h2>Android Development</h2><br><br>
-<p style="font-size:20 px"></p><b><i>Listed Projects built on Android Studio with Java show good usage of layouts, activity, intents, intent-filters and so on.</i></b></p><br><hr>
+<h2>Android Development</h2><br>
+<h5><b><i>Listed Projects built on Android Studio with Java show good usage of layouts, activity, intents, intent-filters and so on.</i></b></h5><br><hr>
 
 <b><i>EGmail</i></b> app demonstrates the use of webpage intent. It allows users to type To(Receiver), BCC, CC, Subject and Body text of a mail within the app and displays choices for all possible available mailing services on the device.<br>
 <i>Download apk: </i>https://github.com/Sangam208/Android_Projects/blob/main/EGmail/app/build/outputs/apk/debug/app-debug.apk<br><br>
