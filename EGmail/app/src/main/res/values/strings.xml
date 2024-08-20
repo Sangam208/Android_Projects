@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EGmail</string>
+    <string name="textView">EG-mail</string>
+    <string name="email_hint">To:</string>
+    <string name="bcc_hint">BCC:</string>
+    <string name="cc_hint">CC:</string>
+    <string name="subject_hint">Subject:</string>
+    <string name="body_hint">Hi! How are ya?</string>
+    <string name="submit">submit</string>
+    <string name="attach_files">attach</string>
+</resources>

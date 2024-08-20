@@ -1,0 +1,3 @@
+com.example.egmail.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

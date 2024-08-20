@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">EGmail</string>
+    <string name="attach_files">attach</string>
+    <string name="bcc_hint">BCC:</string>
+    <string name="body_hint">Hi! How are ya?</string>
+    <string name="cc_hint">CC:</string>
+    <string name="email_hint">To:</string>
+    <string name="subject_hint">Subject:</string>
+    <string name="submit">submit</string>
+    <string name="textView">EG-mail</string>
+    <style name="Base.Theme.EGmail" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.EGmail" parent="Base.Theme.EGmail"/>
+</resources>

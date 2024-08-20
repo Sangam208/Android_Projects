@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="332dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="57dp"
+        android:autofillHints=""
+        android:background="@drawable/banner"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textAlignment="textStart"
+        android:textColor="#1FF6E2"
+        android:textColorHint="#FB5C29"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:paddingRight="50dp"
+        android:text="@string/textView"
+        android:textAlignment="center"
+        android:textColor="#04FF0E"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bcc"
+        android:layout_width="332dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/banner"
+        android:ems="10"
+        android:hint="@string/bcc_hint"
+        android:inputType="textEmailAddress"
+        android:textColor="#1FF6E2"
+        android:textColorHint="#FB5C29"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/cc"
+        android:layout_width="332dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/banner"
+        android:ems="10"
+        android:hint="@string/cc_hint"
+        android:inputType="textEmailAddress"
+        android:textColor="#1FF6E2"
+        android:textColorHint="#FB5C29"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/bcc"
+        app:layout_constraintTop_toBottomOf="@+id/bcc" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="332dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/banner"
+        android:ems="10"
+        android:hint="@string/subject_hint"
+        android:inputType="text"
+        android:textColor="#1FF6E2"
+        android:textColorHint="#FB5C29"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/cc"
+        app:layout_constraintTop_toBottomOf="@+id/cc" />
+
+    <EditText
+        android:id="@+id/body"
+        android:layout_width="332dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/body_hint"
+        android:inputType="text"
+        android:textColor="#FAFAFA"
+        android:textColorHint="#E2B5EA"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/subject"
+        app:layout_constraintTop_toBottomOf="@+id/subject" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="58dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/banner"
+        android:contentDescription="@string/submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/body"
+        app:srcCompat="@drawable/myenv" />
+
+    <ImageButton
+        android:id="@+id/attach"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/back"
+        android:contentDescription="@string/attach_files"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/body"
+        app:srcCompat="@drawable/attach" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
