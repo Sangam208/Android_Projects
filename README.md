@@ -6,4 +6,4 @@
 
 <b><i>QuizApp<i/></b> displays True/False questions related to C++ which can be answered with Yes/No buttons. It uses intent due to which users can be directed 
 to another activity(the scoreboard in this case).<br>
-<i>Download apk: </i>https://github.com/Sangam208/Android_Projects/blob/main/EGmail/app/build/outputs/apk/debug/app-debug.apk
+<i>Download apk: </i>https://github.com/Sangam208/Android_Projects/blob/main/QuizApp/app/build/outputs/apk/debug/app-debug.apk
