@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="cpp_logo">cpp_logo</string>
+    <string name="welcomeText">Welcome To Quiz App</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

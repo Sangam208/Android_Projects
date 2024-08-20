@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo
+id imageView
+id main
+id no
+id question
+id score
+id welcome
+id yes
+layout activity_main
+layout activity_main2
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string cpp_logo
+string no
+string welcomeText
+string yes
+style Base.Theme.QuizApp
+style Theme.QuizApp
+xml backup_rules
+xml data_extraction_rules
